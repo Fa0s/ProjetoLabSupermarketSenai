@@ -30,11 +30,11 @@ private CategoriaRepository categoriaRepository;
 
     @Override
     public Categoria atualizar(Categoria categoria) {
-        Categoria categoriaPesquisada  = buscar(categoria.getId());
+        Categoria categoriaBuscada  = buscar(categoria.getId());
         
         if(Objects.nonNull(categoria)){
-            BeanUtils.copyProperties(categoria, categoriaPesquisada, "id");
-            VerificaNome(categoriaPesquisada.getNome().toUpperCase());
+            BeanUtils.copyProperties(categoria, categoriaBuscada, "id");
+            VerificaNome(categoriaBuscada.getNome().toUpperCase());
             this.categoriaRepository.save(categoria);
         }
 
