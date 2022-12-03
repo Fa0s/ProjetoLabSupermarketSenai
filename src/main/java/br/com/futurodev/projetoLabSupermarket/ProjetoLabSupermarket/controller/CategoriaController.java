@@ -34,22 +34,26 @@ public class CategoriaController {
 
     @GetMapping
     public ResponseEntity<List<Categoria>> listar(){
-        return ResponseEntity.ok(this.categoriaService.listar());
+        return ResponseEntity
+        .ok(this.categoriaService.listar());
     }
     
     @GetMapping("/{id}")
     public ResponseEntity<Categoria> buscarPorId(@PathVariable Long id){
-        return ResponseEntity.ok(this.categoriaService.buscar(id));
+        return ResponseEntity
+        .ok(this.categoriaService.buscar(id));
     }
 
     @GetMapping("/buscar-categoria")
     public ResponseEntity<Categoria> buscarPeloNome(@PathParam("nome") String nome){
-        return ResponseEntity.ok(this.categoriaService.buscarPeloNome(nome));
+        return ResponseEntity
+        .ok(this.categoriaService.buscarPeloNome(nome));
     }
 
-    @PutMapping("/{id}")
+    @PutMapping
     public ResponseEntity<Categoria> atualizar(@RequestBody @Valid Categoria categoria){
-        return ResponseEntity.ok(this.categoriaService.atualizar(categoria));
+        return ResponseEntity
+        .ok(this.categoriaService.atualizar(categoria));
     }
 
     @DeleteMapping("/{id}")
