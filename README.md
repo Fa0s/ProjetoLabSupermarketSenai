@@ -9,15 +9,15 @@
 <br></br>
 
 # 📰 Índice
-- 📃 [Sobre](#📃-sobre)
-- ⛔ [Pré-Requisitos](#⛔-pré-requisitos)
-- 💻 [Tecnoligias Utilizadas](#💻-tecnologias-utilizadas)
-- ✅ [Requisitos da Aplicação](#✅-requisitos-da-aplicação)
-- 📋 [Roteiro da Aplicação](#📋-roteiro-da-aplicação)
-- 📊 [Modelo Relacional](#📊-modelo-relacional-uml)
-- 📄 [Documentação do Projeto](#📄-documentação-do-projeto)
-- 💭 [Plano do Projeto](#💭-plano-do-projeto)
-- 💬 [Observações](#💬-observações)
+- 📃 [Sobre](#-sobre)
+- ⛔ [Pré-Requisitos](#-pré-requisitos)
+- 💻 [Tecnoligias Utilizadas](#-tecnologias-utilizadas)
+- ✅ [Requisitos da Aplicação](#-requisitos-da-aplicação)
+- 📋 [Roteiro da Aplicação](#-roteiro-da-aplicação)
+- 📊 [Modelo Relacional](#-modelo-relacional-uml)
+- 📄 [Documentação do Projeto](#-documentação-do-projeto)
+- 💭 [Plano do Projeto](#-plano-do-projeto)
+- 💬 [Observações](#-observações)
 <br></br>
 
 # 📃 Sobre
